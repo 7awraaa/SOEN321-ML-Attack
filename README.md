@@ -34,3 +34,12 @@ We implemented two specific attack scenarios to disrupt the model's classificati
 | :--- | :--- | :--- |
 | **FGSM** | $\epsilon = 0.05$ | Single-step gradient attack. Fast but less powerful. |
 | **PGD** | $\epsilon = 0.05, \alpha = 0.01, iter = 20$ | Iterative attack. Slower but significantly more destructive. |
+
+## How to run the project
+### To run data preprocessing
+Open and run `preprocessing.ipynb`.  
+This notebook prepares and saves the cleaned dataset for model training.
+
+### To run the CNN model and attacks
+Open and run `cnn_model.ipynb`.  
+This notebook trains the CNN and executes the attack experiments.
